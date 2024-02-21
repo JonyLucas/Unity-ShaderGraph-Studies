@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 [ExecuteInEditMode]
@@ -18,10 +16,14 @@ public class DebugVertex : MonoBehaviour
             vertices = mesh.vertices;
         }
 
+        var firstCamera = SceneView.GetAllSceneCameras()[0];
+
         foreach (var vertex in vertices)
         {
-            var vertPosition = $"local: {vertex} \n world: {transform.TransformPoint(vertex)}";
-            UnityEditor.Handles.Label(transform.TransformPoint(vertex), vertPosition);
+            var worldPos = transform.TransformPoint(vertex);
+            var viewPosition = firstCamera.WorldToViewportPoint(worldPos);
+            var vertPosition = $"local: {vertex} \n world: {worldPos} \n view: {viewPosition}";
+            Handles.Label(worldPos, vertPosition);
         }
     }
 }
