@@ -54,13 +54,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DisplacementStrength: 0.92
+    - _DisplacementStrength: 0.95
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _AlbedoColor: {r: 0.99056596, g: 0, b: 0, a: 0}
     - _DisplacementScale: {r: 1, g: 0.2, b: 0, a: 0}
-    - _DisplacementSpeed: {r: 0, g: 0.1, b: 0, a: 0}
+    - _DisplacementSpeed: {r: 0, g: 0.05, b: 0, a: 0}
     - _MaskColor: {r: 0.95283014, g: 0.709959, b: 0.33708617, a: 0}
     - _Speed: {r: 0, g: 0.05, b: 0, a: 0}
     - _UVScale: {r: 2, g: 2, b: 0, a: 0}

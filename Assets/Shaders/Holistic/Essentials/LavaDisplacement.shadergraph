@@ -418,6 +418,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "9dfc32c9a07b4dc1a8e1510bf0871d13"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "d794788f0820414f91fddfe131b81f83"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "a11e44fcab0a460f900e0ff8c1a1c1a9"
                 },
                 "m_SlotId": 2
@@ -1895,7 +1909,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "AngleOffset",
     "m_StageCapability": 3,
-    "m_Value": 2.0,
+    "m_Value": 7.099999904632568,
     "m_DefaultValue": 2.0,
     "m_Labels": []
 }
@@ -3399,9 +3413,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -3037.0,
-            "y": 1011.0,
+            "y": 786.0000610351563,
             "width": 176.0,
-            "height": 34.0001220703125
+            "height": 33.99993896484375
         }
     },
     "m_Slots": [
@@ -3567,8 +3581,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3264.0,
-            "y": 838.0000610351563,
+            "x": -3298.0,
+            "y": 922.0000610351563,
             "width": 124.0,
             "height": 172.99993896484376
         }
