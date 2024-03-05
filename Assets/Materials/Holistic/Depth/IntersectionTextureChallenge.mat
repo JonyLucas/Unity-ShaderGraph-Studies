@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IntersectionTexture
-  m_Shader: {fileID: -6465566751694194690, guid: 832fbbc4dec03b948b4a5e036408f421,
+  m_Name: IntersectionTextureChallenge
+  m_Shader: {fileID: -6465566751694194690, guid: 451654e586af5f14da59a30a76fd92eb,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -51,7 +51,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Cutout: 1
+    - _Cutout: 0.21
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
