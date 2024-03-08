@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4283423587394024781
+--- !u!114 &-4677786859071841002
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crystal
-  m_Shader: {fileID: -6465566751694194690, guid: 0039be81bdb23cd4d91c026d7d2f834d,
+  m_Name: Hologram
+  m_Shader: {fileID: -6465566751694194690, guid: 30c6eab70e443094783f1c2aa589ebbe,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -52,11 +52,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _FresnelPower: 1.378
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _BottomColor: {r: 0.9528302, g: 0.03146139, b: 0.03146139, a: 0}
-    - _Color: {r: 0.09967959, g: 0.2310497, b: 0.6037736, a: 0}
-    - _TopColor: {r: 0.1625302, g: 0.7830189, b: 0.03324135, a: 0}
+    - _Color: {r: 0.11414198, g: 0.39114726, b: 0.8962264, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
