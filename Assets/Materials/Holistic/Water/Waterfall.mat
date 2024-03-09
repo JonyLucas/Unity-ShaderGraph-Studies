@@ -44,13 +44,13 @@ Material:
     m_Ints: []
     m_Floats:
     - _FlowSpeed: 0.03
-    - _Metallic: 0.3
+    - _Metallic: 0.2
     - _QueueControl: 0
     - _QueueOffset: 1
     - _RefractionStrength: 1
-    - _Smoothness: 0.75
+    - _Smoothness: 0.8
     m_Colors:
-    - _BaseColor: {r: 0.40650585, g: 0.8207547, b: 0.45975897, a: 1}
+    - _BaseColor: {r: 0.2236116, g: 0.6320754, b: 0.27418333, a: 1}
     - _FlowDirection: {r: 0, g: 1, b: 0, a: 0}
     - _NormalScale: {r: 2, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
