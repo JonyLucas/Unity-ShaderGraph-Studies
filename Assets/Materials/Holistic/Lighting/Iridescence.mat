@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7062750374364445271
+--- !u!114 &-5388695783272674222
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Ice
-  m_Shader: {fileID: -6465566751694194690, guid: 8683e9dff012ee94faa34affd7e5d04c,
+  m_Name: Iridescence
+  m_Shader: {fileID: -6465566751694194690, guid: 0073771c98936cf48bc5ba1960fed4e6,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -38,19 +38,7 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _NormalTexture:
-        m_Texture: {fileID: 2800000, guid: 63262c1be9f898d44a648a73ae046478, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxOcclusionMapping_f7e0aac2ffae4b988e1ad67900e022b2_Heightmap_2_Texture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_3dadbac7ecf44c9fb953e0065077beb8_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: 7f92e3773ecd60c4bb61c89024c37a7e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_ef99d380ff324b6bba50447f0097c4e5_Texture_1_Texture2D:
+    - _Texture:
         m_Texture: {fileID: 2800000, guid: 5c1b4423a4c332e4998984dc174d5805, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -68,9 +56,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _FresnelPower: 0.519
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RefractionAmount: 0.316
-    m_Colors: []
+    - _Strength: 0.916
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
